@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E78460E22122B8DF009D94C4 /* SmartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78460E12122B8DF009D94C4 /* SmartDelegate.swift */; };
 		E7979EFC212168AE00EF2728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7979EFB212168AE00EF2728 /* AppDelegate.swift */; };
-		E7979EFE212168AE00EF2728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7979EFD212168AE00EF2728 /* ViewController.swift */; };
 		E7979F01212168AE00EF2728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7979EFF212168AE00EF2728 /* Main.storyboard */; };
 		E7979F03212168AE00EF2728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7979F02212168AE00EF2728 /* Assets.xcassets */; };
 		E7979F06212168AE00EF2728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7979F04212168AE00EF2728 /* LaunchScreen.storyboard */; };
+		E7979F102121779300EF2728 /* IdiotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7979F0F2121779300EF2728 /* IdiotViewController.swift */; };
+		E7979F1221217EAF00EF2728 /* SmartViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7979F1121217EAF00EF2728 /* SmartViewcontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E78460E12122B8DF009D94C4 /* SmartDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDelegate.swift; sourceTree = "<group>"; };
 		E7979EF8212168AE00EF2728 /* Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7979EFB212168AE00EF2728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7979EFD212168AE00EF2728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7979F00212168AE00EF2728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7979F02212168AE00EF2728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7979F05212168AE00EF2728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7979F07212168AE00EF2728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7979F0F2121779300EF2728 /* IdiotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdiotViewController.swift; sourceTree = "<group>"; };
+		E7979F1121217EAF00EF2728 /* SmartViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartViewcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E7979EFB212168AE00EF2728 /* AppDelegate.swift */,
-				E7979EFD212168AE00EF2728 /* ViewController.swift */,
+				E78460E12122B8DF009D94C4 /* SmartDelegate.swift */,
 				E7979EFF212168AE00EF2728 /* Main.storyboard */,
 				E7979F02212168AE00EF2728 /* Assets.xcassets */,
 				E7979F04212168AE00EF2728 /* LaunchScreen.storyboard */,
 				E7979F07212168AE00EF2728 /* Info.plist */,
+				E7979F0F2121779300EF2728 /* IdiotViewController.swift */,
+				E7979F1121217EAF00EF2728 /* SmartViewcontroller.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7979EFE212168AE00EF2728 /* ViewController.swift in Sources */,
+				E78460E22122B8DF009D94C4 /* SmartDelegate.swift in Sources */,
+				E7979F102121779300EF2728 /* IdiotViewController.swift in Sources */,
+				E7979F1221217EAF00EF2728 /* SmartViewcontroller.swift in Sources */,
 				E7979EFC212168AE00EF2728 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
